@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="ch.supsi.connectfour.frontend.dispatcher.FilesDispatcher"
+          prefHeight="20.0" prefWidth="200.0" style="-fx-background-color: lightblue">
+    <Button fx:id="saveFile" onAction="#saveFile" prefWidth="55.0" mnemonicParsing="false" text="Salva" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+
+</GridPane>

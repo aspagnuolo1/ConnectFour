@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+
+
+
+<VBox fx:id="vBoxVersion" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.supsi.connectfour.frontend.view.WinView" style="-fx-background-color: lightblue">
+    <children>
+        <AnchorPane  VBox.vgrow="ALWAYS">
+            <children>
+                <Label fx:id="winner" alignment="CENTER" layoutX="15.0" layoutY="85.0" prefHeight="302.0" prefWidth="602.0" style="&#10;" text="Player ... won" textAlignment="CENTER" textFill="black" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

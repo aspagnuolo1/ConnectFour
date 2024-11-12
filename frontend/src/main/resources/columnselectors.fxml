@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.supsi.connectfour.frontend.dispatcher.ColumnsSelectorDispatcher" style="-fx-background-color: lightblue">
+    <padding><Insets right="11" bottom="5" left="11" top="11"/></padding>
+
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+    </columnConstraints>
+
+    <rowConstraints>
+        <RowConstraints vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <AnchorPane GridPane.columnIndex="0">
+            <children>
+                <Button fx:id="col0" onAction="#playerMove" prefWidth="55.0" mnemonicParsing="false" text="0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+            </children>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="1">
+            <children>
+                <Button fx:id="col1" onAction="#playerMove" prefWidth="55.0" mnemonicParsing="false" text="1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="2">
+            <children>
+                <Button fx:id="col2" onAction="#playerMove" prefWidth="55.0" mnemonicParsing="false" text="2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="3">
+            <children>
+                <Button fx:id="col3" onAction="#playerMove" prefWidth="55.0" mnemonicParsing="false" text="3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="4">
+            <children>
+                <Button fx:id="col4" onAction="#playerMove" prefWidth="55.0" mnemonicParsing="false" text="4" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="5">
+            <children>
+                <Button fx:id="col5" onAction="#playerMove" prefWidth="55.0" mnemonicParsing="false" text="5" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="6">
+            <children>
+                <Button fx:id="col6" onAction="#playerMove" prefWidth="55.0" mnemonicParsing="false" text="6" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

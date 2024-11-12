@@ -1,0 +1,19 @@
+.cell{
+    -fx-border-color: black; /* Colore del bordo */
+    -fx-background-color: white;
+    -fx-background-radius: 200;
+    -fx-border-width: 1px 1px 1px 1px; /* Top Right Bottom Left */
+    -fx-border-radius: 200;
+}
+.colorText{
+    -fx-text-fill: #ffffff;
+}
+
+.backgroundColor{
+    -fx-background-color: lightblue;
+}
+
+
+
+
+

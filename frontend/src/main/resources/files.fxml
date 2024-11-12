@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<GridPane alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.supsi.connectfour.frontend.view.FilesView" stylesheets="style/Style.css" styleClass="backgroundColor">
+    <padding><Insets right="11" bottom="5" left="11" top="5"/></padding>
+    <children>
+        <AnchorPane GridPane.rowIndex="0" GridPane.columnIndex="1">
+            <VBox spacing="10">
+                <Label fx:id="chooseFileName" text="scegli il nome del file"/>
+                <TextField fx:id="filename" promptText="Inserisci testo" />
+            </VBox>
+        </AnchorPane>
+    </children>
+
+</GridPane>

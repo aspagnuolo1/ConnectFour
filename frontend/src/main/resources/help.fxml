@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vBoxHelp1" prefHeight="200.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.supsi.connectfour.frontend.view.HelpView" style="-fx-background-color: lightblue">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label fx:id="rules1" alignment="CENTER" layoutX="15.0" layoutY="15.0" prefHeight="17.0" prefWidth="220.0" text="Regole del gioco Forza Quattro" textAlignment="CENTER" textFill="#000000"
+                       wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <VBox alignment="CENTER" layoutX="15.0" layoutY="40.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+                    <Label fx:id="rules2" text="rules; wrapText=true" />
+                </VBox>
+            </children>
+            <cursor>
+                <Cursor fx:constant="CLOSED_HAND" />
+            </cursor>
+        </AnchorPane>
+    </children>
+    <cursor>
+        <Cursor fx:constant="SE_RESIZE" />
+    </cursor>
+</VBox>
+
